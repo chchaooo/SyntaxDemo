@@ -112,7 +112,7 @@ public class CollectionTest {
      * thread1在循环期间，只要thread2向数组中插入一个元素，再次执行thread1中的循环时，
      * 则会出现 ConcurrentModificationException。
      * */
-    public static void testConcurrentModificationException(){
+    public static void testMultiThreadForeach(){
         List<String> strs = new ArrayList<>();
         for(int i=0; i<10000; i++){
             strs.add(String.valueOf(i));

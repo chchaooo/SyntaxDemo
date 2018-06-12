@@ -8,6 +8,6 @@ public class Main {
 
 //        JavaTest.testNull();
 //        CollectionTest.testConcurrentModificationException();
-        CollectionTest.testForeach();
+        CollectionTest.testMultiThreadIteratorDelete();
     }
 }
